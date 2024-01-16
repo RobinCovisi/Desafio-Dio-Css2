@@ -1,0 +1,15 @@
+#containerHead {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 24px;
+}
+
+.container {
+  display: grid; 
+  grid-template-columns: 15% 80%;
+  grid-auto-rows: 540px;
+}
+.fot2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
